@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane prefHeight="388.0" prefWidth="405.0">
+      <children>
+         <Label layoutX="99.0" layoutY="14.0" prefHeight="46.0" prefWidth="207.0" text="NEW EVENT" textFill="#cc107f">
+            <font>
+               <Font name="OCR A Extended" size="37.0" />
+            </font>
+         </Label>
+         <Label layoutX="23.0" layoutY="79.0" prefHeight="20.0" prefWidth="53.0" text="Name" textFill="#202020">
+            <font>
+               <Font name="OCR A Extended" size="18.0" />
+            </font>
+         </Label>
+         <Label layoutX="23.0" layoutY="150.0" prefHeight="20.0" prefWidth="122.0" text="Description" textFill="#202020">
+            <font>
+               <Font name="OCR A Extended" size="18.0" />
+            </font>
+         </Label>
+         <Label layoutX="23.0" layoutY="224.0" prefHeight="20.0" prefWidth="122.0" text="Duration" textFill="#202020">
+            <font>
+               <Font name="OCR A Extended" size="18.0" />
+            </font>
+         </Label>
+         <Label layoutX="23.0" layoutY="310.0" prefHeight="20.0" prefWidth="122.0" text="Time" textFill="#202020">
+            <font>
+               <Font name="OCR A Extended" size="18.0" />
+            </font>
+         </Label>
+         <TextArea fx:id="NameEvent" layoutX="229.0" layoutY="70.0" prefHeight="21.0" prefWidth="133.0" />
+         <TextArea fx:id="DescriptionEvent" layoutX="228.0" layoutY="121.0" prefHeight="78.0" prefWidth="134.0" />
+         <TextArea fx:id="DurationText" layoutX="228.0" layoutY="214.0" prefHeight="21.0" prefWidth="133.0" />
+         <TextArea fx:id="TimeText" layoutX="228.0" layoutY="290.0" prefHeight="21.0" prefWidth="133.0" />
+         <Button fx:id="EventDone" layoutX="269.0" layoutY="349.0" mnemonicParsing="false" text="EXIT">
+            <font>
+               <Font name="OCR A Extended" size="14.0" />
+            </font>
+         </Button>
+         <Button fx:id="EventSave" layoutX="85.0" layoutY="349.0" mnemonicParsing="false" text="SAVE">
+            <font>
+               <Font name="OCR A Extended" size="14.0" />
+            </font>
+         </Button>
+      </children></AnchorPane>
+</Scene>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="386.0" prefWidth="524.0">
+      <children>
+         <Label layoutX="52.0" prefHeight="109.0" prefWidth="420.0" text="Enter your qoute of the day :3">
+            <font>
+               <Font name="System Bold Italic" size="33.0" />
+            </font>
+         </Label>
+         <TextArea fx:id="EnterQuoteOfDayArea" layoutX="75.0" layoutY="119.0" prefHeight="200.0" prefWidth="341.0" />
+         <Button fx:id="SaveQuoteOfDay" layoutX="122.0" layoutY="338.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="69.0" text="Save" />
+         <Button fx:id="DoneWithQuote" layoutX="297.0" layoutY="339.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0" text="Done" />
+      </children></AnchorPane>
+</Scene>

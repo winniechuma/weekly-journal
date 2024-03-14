@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="426.0" prefWidth="558.0">
+        <children>
+            <TextArea editable="false" layoutY="-1.0" prefHeight="482.0" prefWidth="638.0" style="-fx-background-color: blue;" text="                                                  Welcome to CheckIt! &#10;Get ready to conquer your tasks with our comprehensive to-do list feature.&#10;*&#10;Go ahead and name your week! ^_^                                        Feeling a little colorrus&#10;&#10;&#10;*&#10;General Tips&#10;&#10;-The Set Your Limit button to set your maximum number of events or tasks.&#10;&#10;-The save to file button allows you to save the current file to a bujo file.&#10;&#10;-The save to file button allows you to save the current file to a bujo file.&#10;&#10;-Click the Weekly Overview  button to get your To-Do Stats!">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </TextArea>
+            <Button fx:id="WeeklyOverview" layoutX="15.0" layoutY="425.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="118.0" text="Weekly Overview" />
+            <Button fx:id="DoneReading" layoutX="291.0" layoutY="426.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="125.0" text="Done Reading :)" />
+            <Button fx:id="SaveWeekName" layoutX="154.0" layoutY="128.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="45.0" text="Save" />
+            <TextField fx:id="NameTheWeek" layoutX="14.0" layoutY="128.0" prefHeight="26.0" prefWidth="121.0" />
+            <Button fx:id="colorButton" layoutX="482.0" layoutY="113.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" text="Open" />
+        </children></AnchorPane>
+</Scene>

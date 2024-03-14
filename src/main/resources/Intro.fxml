@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="574.0" prefWidth="806.0" style="-fx-background-color: white;" styleClass="fadeOut">
+        <stylesheets>
+            <URL value="@../../../../../Downloads/templatemo_570_chain_app_dev/assets/css/animated.css" />
+            <URL value="@../../../../../Downloads/templatemo_570_chain_app_dev/assets/css/owl.css" />
+        </stylesheets>
+        <children>
+            <ImageView fitHeight="574.0" fitWidth="806.0" layoutX="1.0">
+                <image>
+                    <Image url="@Images/CheckIt.png" />
+                </image>
+            </ImageView>
+            <Button fx:id="EnterCheckIt" layoutX="366.0" layoutY="483.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Enter " textFill="#4e48ff">
+            <font>
+               <Font name="Script MT Bold" size="19.0" />
+            </font></Button>
+        </children></AnchorPane>
+</Scene>

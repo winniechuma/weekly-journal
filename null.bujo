@@ -1,0 +1,24 @@
+Day Text Areas: 
+{"day":"MONDAY","textAreas":""}
+{"day":"TUESDAY","textAreas":""}
+{"day":"WEDNESDAY","textAreas":""}
+{"day":"THURSDAY","textAreas":""}
+{"day":"FRIDAY","textAreas":""}
+{"day":"SATURDAY","textAreas":""}
+{"day":"SUNDAY","textAreas":""}
+Quotes: {"quote":""}
+Task Queue: {"task-queue":""}
+Numeric Fields: 
+{"name":"count-for-tasks","number":0}
+{"name":"count-for-events","number":0}
+{"name":"set-event-limit","number":0}
+{"name":"set-task-limit","number":0}
+{"name":"tasks-completed","number":0}
+Map Fields: 
+{"name":"task-queue","map":{}}
+{"name":"task-queue-sub","map":{}}
+{"name":"button-hash-map","map":{}}
+{"name":"day-hash-map","map":{}}
+{"name":"task-area-hash-map","map":{}}
+{"name":"creatable-hash-map","map":{}}
+{"name":"empty-spots-hash-map","map":{}}

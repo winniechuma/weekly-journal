@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane prefHeight="826.0" prefWidth="1195.0">
+      <children>
+         <Rectangle fx:id="weekBackground" arcHeight="5.0" arcWidth="5.0" fill="#f4d283" height="803.0" layoutY="28.0" stroke="#63458a" strokeType="INSIDE" strokeWidth="10.0" width="1284.0" />
+         <TextArea fx:id="WeekTitle" editable="false" layoutX="484.0" layoutY="74.0" prefHeight="46.0" prefWidth="272.0" />
+         <Button fx:id="ClickMe" layoutX="878.0" layoutY="83.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="79.0" text="Click Me :)">
+            <font>
+               <Font name="Script MT Bold" size="12.0" />
+            </font></Button>
+         <TextArea fx:id="Tasks" editable="false" layoutX="31.0" layoutY="146.0" prefHeight="616.0" prefWidth="141.0" text="TASKS FOR THE WEEK">
+            <font>
+               <Font name="Script MT Bold" size="12.0" />
+            </font></TextArea>
+         <Button fx:id="SetYourLimit" layoutX="1063.0" layoutY="762.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="162.0" text="SET YOUR LIMIT" textFill="RED">
+            <font>
+               <Font name="Microsoft YaHei Bold" size="16.0" />
+            </font></Button>
+         <MenuBar fx:id="MenuBar" layoutY="-1.0" prefHeight="28.0" prefWidth="1078.0">
+           <menus>
+             <Menu fx:id="SaveTo" mnemonicParsing="false" text="SaveTo" />
+               <Menu fx:id="Open" mnemonicParsing="false" text="Open" />
+               <Menu fx:id="SetLimit" mnemonicParsing="false" text="Set Limit" />
+             <Menu fx:id="NewTask" mnemonicParsing="false" text="New Task" />
+               <Menu fx:id="NewEvent" mnemonicParsing="false" text="New Event" />
+           </menus>
+         </MenuBar>
+         <Button fx:id="MiniViewer" layoutX="1083.0" layoutY="693.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="126.0" text="Mini Viewer ">
+            <font>
+               <Font name="Script MT Bold" size="19.0" />
+            </font></Button>
+          <Button fx:id="CreateAQuote" layoutX="1098.0" layoutY="650.0" mnemonicParsing="false" text="Creata a Quote" textFill="#bf13b7">
+            <font>
+               <Font name="Bodoni MT" size="12.0" />
+            </font></Button>
+         <AnchorPane layoutX="204.0" layoutY="146.0" prefHeight="298.0" prefWidth="163.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#419d78" height="297.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+               <TextArea fx:id="MondayText" editable="false" layoutX="8.0" layoutY="54.0" prefHeight="229.0" prefWidth="145.0" />
+               <Button fx:id="Monday" layoutX="8.0" layoutY="8.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="108.0" text="Monday">
+                  <font>
+                     <Font name="Script MT Bold" size="17.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="122.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Images/book.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="407.0" layoutY="146.0" prefHeight="297.0" prefWidth="161.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c7cedb" height="297.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+               <Button fx:id="Tuesday" layoutX="8.0" layoutY="7.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" text="Tuesday">
+                  <font>
+                     <Font name="Script MT Bold" size="17.0" />
+                  </font>
+               </Button>
+               <TextArea fx:id="TuesdayText" editable="false" layoutX="8.0" layoutY="54.0" prefHeight="229.0" prefWidth="145.0" />
+               <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="116.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Images/pencil-fococlipping-standard.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="620.0" layoutY="146.0" prefHeight="298.0" prefWidth="161.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#001524" height="297.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+               <Button fx:id="Wednesday" layoutX="8.0" layoutY="6.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="111.0" text="Wednesday">
+                  <font>
+                     <Font name="Script MT Bold" size="18.0" />
+                  </font>
+               </Button>
+               <TextArea fx:id="WednesdayText" editable="false" layoutX="8.0" layoutY="54.0" prefHeight="229.0" prefWidth="145.0" />
+               <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="119.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Images/sun-fococlipping-standard.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="835.0" layoutY="146.0" prefHeight="296.0" prefWidth="166.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c0f8d1" height="297.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+               <Button fx:id="Thursday" layoutX="10.0" layoutY="7.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="98.0" text="Thursday">
+                  <font>
+                     <Font name="Script MT Bold" size="17.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="118.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Images/thunderstorm-clipart-thunder-lightning-3.png" />
+                  </image>
+               </ImageView>
+               <TextArea fx:id="ThursdayText" editable="false" layoutX="10.0" layoutY="54.0" prefHeight="229.0" prefWidth="145.0" />
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="315.0" layoutY="464.0" prefHeight="288.0" prefWidth="165.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#41658a" height="288.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+               <Button fx:id="Friday" layoutX="8.0" layoutY="9.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="99.0" text="Friday">
+                  <font>
+                     <Font name="Script MT Bold" size="17.0" />
+                  </font>
+               </Button>
+               <TextArea fx:id="FridayText" editable="false" layoutX="8.0" layoutY="51.0" prefHeight="229.0" prefWidth="145.0" />
+               <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="120.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Images/emoji-clipart-celebration-4.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="539.0" layoutY="463.0" prefHeight="289.0" prefWidth="161.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f46197" height="288.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+               <Button fx:id="Saturday" layoutX="8.0" layoutY="8.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="91.0" text="Saturday">
+                  <font>
+                     <Font name="Script MT Bold" size="17.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="116.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Images/drinks.png" />
+                  </image>
+               </ImageView>
+               <TextArea fx:id="SaturdayText" editable="false" layoutX="8.0" layoutY="52.0" prefHeight="229.0" prefWidth="145.0" />
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="756.0" layoutY="464.0" prefHeight="287.0" prefWidth="162.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ac3931" height="288.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+               <Button fx:id="Sunday" layoutX="8.0" layoutY="8.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="103.0" text="Sunday">
+                  <font>
+                     <Font name="Script MT Bold" size="17.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="32.0" fitWidth="37.0" layoutX="117.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Images/pray-fococlipping-standard.png" />
+                  </image>
+               </ImageView>
+               <TextArea fx:id="SundayText" editable="false" layoutX="8.0" layoutY="51.0" prefHeight="229.0" prefWidth="145.0" />
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="1047.0" layoutY="97.0" prefHeight="538.0" prefWidth="198.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b287a3" height="537.0" stroke="BLACK" strokeType="INSIDE" width="195.0" />
+                <TextArea fx:id="NotesTextArea" editable="false" layoutX="14.0" layoutY="50.0" prefHeight="476.0" prefWidth="167.0" />
+                <Label layoutX="7.0" prefHeight="50.0" prefWidth="181.0" text="Daily Quotes &amp; Notes" textAlignment="CENTER" textFill="#171717f5">
+                    <font>
+                        <Font name="Script MT Bold" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="63.0" layoutY="42.0" prefHeight="77.0" prefWidth="343.0">
+            <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cfb98b" height="72.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="341.0" />
+               <Label fx:id="titleLabel" layoutX="30.0" layoutY="10.0" prefHeight="70.0" prefWidth="287.0" text="YASSIFIED JAVA JOURNEL" textFill="#63458a">
+                  <font>
+                     <Font name="Bauhaus 93" size="27.0" />
+                  </font>
+               </Label>
+            </children>
+         </AnchorPane>
+         <BorderPane layoutX="635.0" layoutY="522.0" prefHeight="200.0" prefWidth="200.0" />
+         <ChoiceBox fx:id="themeChoice" layoutX="1098.0" layoutY="48.0" prefWidth="150.0" />
+         <Label layoutX="987.0" layoutY="49.0" prefHeight="24.0" prefWidth="102.0" text="Theme Choice">
+            <font>
+               <Font name="Script MT Bold" size="18.0" />
+            </font>
+         </Label>
+      </children></AnchorPane>
+</Scene>

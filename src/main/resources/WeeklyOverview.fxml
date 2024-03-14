@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="343.0" prefWidth="317.0">
+        <children>
+            <Label layoutX="35.0" prefHeight="99.0" prefWidth="394.0" text="Welcome To Your Weekly Overview!" textFill="#3f3ef7">
+                <font>
+                    <Font size="21.0" />
+                </font>
+            </Label>
+            <TextArea fx:id="Totaltasks" editable="false" layoutX="38.0" layoutY="100.0" prefHeight="40.0" prefWidth="122.0" />
+            <TextArea fx:id="Percentcomplete" editable="false" layoutX="38.0" layoutY="237.0" prefHeight="48.0" prefWidth="124.0" />
+            <TextArea fx:id="Totalevents" editable="false" layoutX="39.0" layoutY="173.0" prefHeight="42.0" prefWidth="122.0" />
+            <Label layoutX="189.0" layoutY="172.0" prefHeight="39.0" prefWidth="109.0" text="Total Events" />
+            <Label layoutX="189.0" layoutY="100.0" prefHeight="41.0" prefWidth="109.0" text="Total Tasks" />
+            <Label layoutX="182.0" layoutY="252.0" prefHeight="17.0" prefWidth="173.0" text="Percentage of tasks Complete" />
+            <Button fx:id="ExitButton" layoutX="162.0" layoutY="303.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="87.0" text="Exit" />
+        </children></AnchorPane>
+</Scene>
